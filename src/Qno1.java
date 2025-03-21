@@ -12,7 +12,7 @@ public class Qno1 {
                 temp[k++] = arr[i++];
             } else {
                 temp[k++] = arr[j++];
-                count += (mid - i + 1); // Count inversions
+                count += (mid - i + 1);
             }
         }
 
